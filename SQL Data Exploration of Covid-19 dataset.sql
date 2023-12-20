@@ -24,7 +24,7 @@ WHERE location LIKE 'Viet%'
 ORDER BY 2,3
 
 --Total_cases vs Population
---Showing what percentage of population got Covid in each country.
+--Showing what percentage of population got infected by the Covid in each country.
 SELECT continent, location, date, CAST(total_cases AS INT) AS total_cases, population, 
 (CAST(total_cases AS FLOAT)/population)*100 AS CasesPercentage
 FROM PortfolioProject..CovidDeaths
