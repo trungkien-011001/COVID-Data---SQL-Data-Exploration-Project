@@ -32,11 +32,11 @@ WHERE continent IS NOT NULL
 ORDER BY 2,3
 
 --Showing countries having the Total Infection Count compared to Population from highest to smallest.
-SELECT continent, location, population, MAX(CAST(total_cases AS INT)) AS TotalInfectionCount,
+SELECT location, population, MAX(CAST(total_cases AS INT)) AS TotalInfectionCount,
 MAX(CAST(total_cases AS FLOAT)/population)*100 AS InfectionRate
 FROM PortfolioProject..CovidDeaths
 WHERE continent IS NOT NULL
-GROUP BY continent, location, population
+GROUP BY location, population
 ORDER BY InfectionRate DESC
 
 --Showing countries having the Total Deaths Count from highest to smallest.
@@ -47,15 +47,15 @@ GROUP BY continent, location
 ORDER BY TotalDeathCount DESC
 
 --Showing continents having the Total Deaths Count from highest to smallest.
-SELECT continent, SUM(new_deaths) AS TotalDeathCount
+SELECT continent, SUM(CAST(new_deaths AS INT)) AS TotalDeathCount
 FROM PortfolioProject..CovidDeaths
 WHERE continent IS NOT NULL
 GROUP BY continent
 ORDER BY TotalDeathCount DESC
 
 --Showing global numbers.
-SELECT SUM(new_cases) AS Total_cases, SUM(new_deaths) AS Total_death, 
-(SUM(new_deaths)/SUM(new_cases))*100 TotalDeathPercentage
+SELECT SUM(new_cases) AS Total_cases, SUM(CAST(new_deaths AS INT)) AS Total_death, 
+(SUM(CAST(new_deaths AS INT))/SUM(new_cases))*100 TotalDeathPercentage
 FROM PortfolioProject..CovidDeaths
 WHERE continent IS NOT NULL
 
