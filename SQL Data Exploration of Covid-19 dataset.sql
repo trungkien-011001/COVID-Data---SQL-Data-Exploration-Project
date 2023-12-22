@@ -111,7 +111,7 @@ SELECT *, (RollingVaccinations/population)*100 AS VacOverPop
 FROM #PopvsVac
 ORDER BY 2,3
 
---Creating View for later Visualization
+--Creating View
 CREATE VIEW PercentPopVaccinated AS
 SELECT dea.continent, dea.location, dea.date, dea.population, vac.new_vaccinations,
 SUM(CAST(vac.new_vaccinations AS FLOAT)) OVER(PARTITION BY dea.location ORDER BY dea.location, dea.date) 
