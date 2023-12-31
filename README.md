@@ -1,5 +1,5 @@
-# SQL DATA EXPLORATION OF COVID DATASET
-This project is about exploring the Covid dataset by using SQL querying skills and other skills such as CTE, temp tables to have a better sense of the dataset
+# SQL DATA EXPLORATION AND BASIC DATA VISUALIZATION OF COVID DATASET
+This project is about exploring and the Covid dataset by using SQL querying skills and other skills such as CTE, temp tables and visualizing by Power BI to have a better sense of the dataset
 ## 1. About project
 - There are 2 data files which are CovidDeaths.xlsx and CovidVaccinations.xlsx using for the project
 - Data source: https://ourworldindata.org/covid-deaths
