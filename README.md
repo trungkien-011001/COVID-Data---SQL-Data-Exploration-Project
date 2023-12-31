@@ -10,7 +10,7 @@ This project is about exploring the Covid dataset by using SQL querrying skills 
 - Collecting data from the data source
 - Importing downloaded data into the MS SQL Sever Management
 - Performing data exploration techniques and some other skills
-- Exporting the SQL code file and 4 small files to .xlsx file
+- Exporting the SQL code file in .sql and 4 small files to .xlsx file
 - Importing 4 small files into Power BI
 - Visualizing some basic graphs and charts
 - Exporting a .pbi  and .png file of the visualization
