@@ -5,7 +5,7 @@ This project is about exploring the Covid dataset by using SQL querrying skills 
 - Data source: https://ourworldindata.org/covid-deaths
 - Platform: MS SQL Sever Management
 ## 2. Project Aim:
-- To apply data exploration and basic data analysis techniques to have a better sense about the number of people died, the rate of deaths on population, the number of vaccinated people on population,...
+- To apply data exploration, some basic data analysis and Visualization techniques to have a better sense about the number of people died, the rate of deaths on population, the number of vaccinated people on population,...
 ## 3. Step-to-step process:
 - Collecting data from the data source
 - Importing downloaded data into the MS SQL Sever Management
