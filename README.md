@@ -3,7 +3,7 @@ This project is about exploring the Covid dataset by using SQL querrying skills 
 ## 1. About project
 - There are 2 data files which are CovidDeaths.xlsx and CovidVaccinations.xlsx using for the project
 - Data source: https://ourworldindata.org/covid-deaths
-- SQL Platform: MS SQL Sever Management
+- Platform: MS SQL Sever Management
 ## 2. Project Aim:
 - To apply data exploration and basic data analysis techniques to have a better sense about the number of people died, the rate of deaths on population, the number of vaccinated people on population,...
 ## 3. Step-to-step process:
