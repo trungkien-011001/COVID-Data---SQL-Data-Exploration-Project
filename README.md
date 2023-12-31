@@ -8,7 +8,7 @@ This project is about exploring the Covid dataset by using SQL querying skills a
 - To apply data exploration, some basic data analysis and Visualization techniques to have a better sense about the number of people died, the rate of deaths on population, the number of vaccinated people on population,...
 ## 3. Step-to-step process:
 - Collecting data from the data source
-- Importing downloaded data into the MS SQL Sever Management
+- Importing downloaded data into the MS SQL Sever Management Studio
 - Performing data exploration techniques and some other skills
 - Exporting the SQL code file in .sql and 4 small files to .xlsx file
 - Importing 4 small files into Power BI
